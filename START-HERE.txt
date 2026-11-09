@@ -1,0 +1,29 @@
+CFL CONNECTED EDITION
+
+All website and Firebase source files are in this folder.
+
+GITHUB PAGES
+Upload these files directly to the root of main:
+  .nojekyll
+  cloud-ikSXHQHJ.js
+  field.svg
+  firebase-app-CLU05vpN.js
+  index-CESsJQVR.js
+  index-DxBkFGk_.css
+  index.html
+  mark.svg
+  office-oI9v1gbK.js
+
+Open GitHub Settings > Pages, select Deploy from a branch, main and / (root).
+The website will use the default GitHub Pages URL.
+
+FIREBASE
+firestore.rules, storage.rules, firestore.indexes.json and firebase.json are
+visible in this folder. The source files are prefixed with source-- so the
+prebuilt website files are easy to identify.
+
+Run python3 prepare-firebase.py to create a separate CFL-Firebase-Project
+folder in your current working directory. Open that generated project and
+follow README.md, starting with the Firebase activation section. The script
+recreates the directory layout required by the Firebase CLI. If the Firebase
+project already has rules for another app, merge CFL rules as documented.

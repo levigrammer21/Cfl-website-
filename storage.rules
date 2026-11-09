@@ -1,0 +1,10 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // The league functions validate uploads and check publication before serving files.
+    // Merge into existing rules and exclude this prefix from any overlapping allows.
+    match /cfl/v1/{rest=**} {
+      allow read, write: if false;
+    }
+  }
+}

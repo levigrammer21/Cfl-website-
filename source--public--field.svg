@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="470" viewBox="0 0 1100 470">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1929"/><stop offset=".58" stop-color="#163450"/><stop offset="1" stop-color="#254866"/></linearGradient>
+ <radialGradient id="glow" cx=".75" cy=".37" r=".58"><stop stop-color="#82a5bf" stop-opacity=".55"/><stop offset="1" stop-color="#162d45" stop-opacity="0"/></radialGradient>
+ <linearGradient id="field" x2="0" y2="1"><stop stop-color="#446372"/><stop offset="1" stop-color="#152e44"/></linearGradient>
+ <linearGradient id="beam" x2="0" y2="1"><stop stop-color="#d6e6ee" stop-opacity=".47"/><stop offset="1" stop-color="#7facc9" stop-opacity="0"/></linearGradient>
+ <pattern id="stands" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 1h3m1 3h2" stroke="#9ab2c2" stroke-opacity=".32" stroke-width=".7"/></pattern>
+ <pattern id="small" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M1 1h.5m2 3h.5" stroke="#b6c8d2" stroke-opacity=".16"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="11"/></filter>
+</defs>
+<path fill="url(#bg)" d="M0 0h1100v470H0z"/>
+<path fill="url(#glow)" d="M0 0h1100v470H0z"/>
+<path fill="#b8ccd8" opacity=".10" filter="url(#blur)" d="M263 205q102-26 183-11t130-23q97-41 232-15t292 0v48q-90 4-212 19t-192-8-210 6-223-16Z"/>
+<path fill="url(#beam)" d="m848 91 45 2 161 225H692Z"/><path fill="url(#beam)" opacity=".62" d="m1040 66 55 1 45 222H922Z"/>
+<g fill="#b6cfde" filter="url(#blur)"><rect x="843" y="82" width="55" height="19" rx="8"/><rect x="1034" y="58" width="69" height="22" rx="8"/></g>
+<g stroke="#8ca9ba" stroke-opacity=".68" stroke-width="2"><path d="M869 95v184m199-200v205"/><path d="m864 261 5-150 6 150m186 4 7-177 7 177"/></g>
+<g fill="#e6eef0"><rect x="846" y="85" width="48" height="8" rx="2"/><rect x="1037" y="61" width="63" height="10" rx="2"/></g>
+<g stroke="#607c92" stroke-width="2"><path d="M855 85v8m9-8v8m10-8v8m10-8v8m165-32v10m12-10v10m12-10v10m12-10v10"/></g>
+<path fill="#10273c" d="m0 252 223-10 196 10 168 2 73-16 115 1 43-15 132 2 38-15 112-5v97H0Z"/>
+<path fill="url(#stands)" d="m443 266 154-6 68-14 108 1 50-16 130 3 39-15 108-3v79H445Z"/>
+<path fill="none" stroke="#b1c0c8" stroke-opacity=".27" d="m445 281 159-9 68-10 108 1 55-13 123 3 38-14 104-4m-655 53 159-6 72-8 103 1 58-12 122 3 41-12 100-4m-642 44 220-11 167-9 113 2 142-15"/>
+<path fill="#0c1d2d" d="M0 294h1100v24H0z"/>
+<path fill="url(#field)" d="M0 315h1100v155H0z"/>
+<path fill="#92a8a8" opacity=".12" d="M450 315h55L349 470H194Zm106 0h57L546 470H387Zm110 0h54l16 155H574Zm110 0h56l102 155H772Zm112 0h56l156 126v29h-129Z"/>
+<path fill="url(#small)" d="M0 315h1100v155H0z"/>
+<g fill="none" stroke="#c0d1d2" stroke-opacity=".52">
+<path d="M0 329h1100M0 350h1100M0 422h1100M157 470l282-155m-57 155 166-155m49 155 63-155m153 155-44-155m254 155L882 315m218 90-113-90"/>
+<path d="M294 376h11m70 0h10m66 0h11m66 0h10m65 0h11m65 0h11m67 0h11m68 0h10m67 0h11m67 0h10"/>
+</g>
+<g fill="#c7d8dc" font-family="Arial,sans-serif" font-style="italic" font-weight="800" opacity=".45" font-size="21" transform="translate(0 134) scale(1 .69)">
+<text x="458" y="397">30</text><text x="556" y="397">40</text><text x="650" y="397">50</text><text x="744" y="397">40</text><text x="837" y="397">30</text><text x="929" y="397">20</text></g>
+<path stroke="#dec38a" stroke-opacity=".73" stroke-width="2.5" fill="none" d="M966 311v-35m-16-22v23h32v-23"/>
+</svg>
