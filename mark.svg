@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72">
+<path fill="#d1a753" d="M32 1 61 10v27c0 15-12 27-29 34C15 64 3 52 3 37V10Z"/>
+<path fill="#11253c" d="M32 5 57 13v24c0 13-10 24-25 30C17 61 7 50 7 37V13Z"/>
+<path fill="none" stroke="#e8c679" stroke-width="1.8" d="M22 29c3-10 14-16 24-14 2 9-5 19-15 21l-10 1zM26 32l14-13m-11 7 4 4m0-8 4 4"/>
+<text x="32" y="53" text-anchor="middle" fill="#fff8e7" font-family="Arial,sans-serif" font-weight="900" font-size="17" letter-spacing="1">CFL</text>
+</svg>
